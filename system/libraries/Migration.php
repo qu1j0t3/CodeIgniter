@@ -303,7 +303,7 @@ class CI_Migration {
 	/**
 	 * Sets the schema to the migration version set in config
 	 *
-	 * @return	mixed	TRUE if already current, FALSE if failed, string if upgraded
+	 * @return	mixed	TRUE if already current, FALSE if failed, float if upgraded
 	 */
 	public function current()
 	{
